@@ -9,6 +9,7 @@ module.exports = {
     colors: {
       'grayBG': '#0c1c27',
       'grayFG': '#060e18',
+      'textSlot': '#a0c3d4',
     },
     extend: {
       backgroundImage: {
