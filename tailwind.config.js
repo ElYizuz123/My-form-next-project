@@ -6,10 +6,14 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    
     colors: {
       'grayBG': '#0c1c27',
       'grayFG': '#060e18',
       'textSlot': '#a0c3d4',
+      'black': '#000000',
+      'buttonC': '#173845',
+      'white' : '#FFFFFF'
     },
     extend: {
       backgroundImage: {
