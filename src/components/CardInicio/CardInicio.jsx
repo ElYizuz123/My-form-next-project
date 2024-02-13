@@ -1,18 +1,19 @@
+import Link from 'next/link'
 import React from 'react'
 
-const CardInicio = ({tittle, link, children}) => {
+const CardInicio = ({title, link, children}) => {
   return (
-    <div className='w-25 h-50 flex flex-col bg-white'>
-        <div>
-            {tittle}
-        </div>
-        <div className='w-full flex-1'>
-            {children}
-        </div>
-        <link href={link} className='text-buttonC '>
-            See more about...
-        </link>
-    </div>
+    <div className="w-[24%] aspect-[10/12] flex flex-col bg-white border-4 p-4">
+            <div className="text-xl font-bold">
+                {title}
+            </div>
+            <div className="w-full flex-1 p-4">
+                {children}
+            </div>
+            <Link href={link} className="text-blue-800">
+                See more about...
+            </Link>
+      </div>
   )
 }
 
